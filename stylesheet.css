@@ -1,0 +1,216 @@
+body {
+  margin: 0;
+  font-family:"Hiragino Kaku Gothic ProN";
+  background-color: rgb(239, 241, 241);
+ 
+}
+a {
+  text-decoration: none;
+}
+.title {
+    color: #6ecc02;
+  }
+  *{
+    box-sizing: border-box;
+  }
+  .container{
+    width:100%;
+    padding:0 15px;
+    margin:0 auto;
+  }
+
+  header {
+    height:65px;
+    width:100%;
+    background-color: rgba(177, 242, 255, 0.9);
+    position:fixed;
+    top:0;
+    z-index: 10;
+  }
+
+  
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float:center;
+  background-color: blue;
+  line-height:65px;
+  padding:0px 25px;
+  color:white;
+  display:block;
+  transition:all o.5s;
+}
+  
+.meditation {
+  color:white;
+}
+
+.header-right:hover {
+  background-color: rgb(172, 172, 209);
+}
+
+.top-wrapper {
+  padding:90px 0 300px 0;
+  background-image:url(file:///C:/Users/USER/Pictures/%E8%AD%B0%E8%AB%96%E4%BC%9A.jpg);
+  color:black;
+  background-position: top 10%;
+  background-size: cover;
+}
+
+.top-wrapper h1 {
+  opacity:0.7;
+  font-size: 45px;
+  letter-spacing:5px;
+}
+
+.top-wrapper p{
+  opacity:0.7;
+ 
+}
+.action{
+color:red;
+}
+
+.box30 {
+  margin-bottom: 100px;
+  background: #f1f1f1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.22);
+  padding-bottom: 50px;
+}
+.box30 .box-title {
+  font-size: 1.2em;
+  background: #5fc2f5;
+  padding: 4px;
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  letter-spacing: 0.05em;
+}
+.box30 p {
+  padding: 15px 20px;
+  margin: 0;
+}
+
+.btn {
+  padding:8px 24px;
+  color:black;
+  display:inline-block;
+  opacity:0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity:1;
+}
+
+
+.btn-wrapper {
+  margin:20px;
+}
+
+.btn-wrapper h2{
+margin:10px 0px;
+}
+
+.btn-wrapper p{
+margin:10px 0px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+
+.logo {
+  width:124px;
+  margin-top:20px;
+}
+
+
+.message-wrapper {
+  height:700px;
+  padding-bottom:80px;
+  
+}
+
+.heading {
+  padding-top:100px;
+  padding-bottom:50px;
+  color:#5f5d60;
+  
+}
+
+.heading-one{
+  font-size:50px;
+  padding-top:30px;
+}
+
+
+.lesson {
+  float:left;
+  width:25%;
+}
+
+
+.step-wrapper{
+  border-bottom:1px solid #eee;
+  padding-bottom:50px;
+  text-align:center;
+}
+
+.step-wrapper p{
+  font-size: 20px;
+  color:#c572aa;
+  text-align: center;
+}
+.btn{
+  background-color: #5dca88;
+  padding:15px 40px;
+  box-shadow:0 7px #1a7940;
+}
+
+.btn:active {
+  box-shadow: none;
+  position:relative;
+  top:7px;
+}
+
+.heading h2{
+  color:#eee;
+}
+
+.contact-form {
+  padding-top: 50px;
+}
+
+input {
+  width:200px;
+  margin-top:10px;
+  margin-bottom:20px;
+  padding:10px;
+  font-size:18px;
+  border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+  background-color:#dee7ec;
+  color:#889eab;
+}
+
+
+.footer {
+  background-color: #5fc2f5;
+  height:270px;
+}
+
+.clear {
+  clear:left;
+}
+  .item {
+    width: 25%;
+    float: left;
+    padding:0 15px;
+  }
+ 
